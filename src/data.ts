@@ -6,7 +6,7 @@ export interface RandomName {
   color: string
 }
 
-const selectedName: string[] = ['G05','G08','G09','G10','G02']
+const selectedName: string[] = ['G01','G03','G04','G06','G07','G11']
 const selectedOther: string[] = ['Docker', 'Kubernetes', 'Jenkins', 'CircleCI', 'GitLab CI', 'Node.js','Terraform', 'Ansible','NGINX', 'Apache','JavaScript','React.js', 'Vue.js', 'Angular', 'Svelte', 'Next.js', 'Nuxt.js','Python','PHP' ,'Laravel','Java','Spring Boot']
 
 const randomizedSelectedName = selectedName.sort(() => Math.random() - 0.5)
